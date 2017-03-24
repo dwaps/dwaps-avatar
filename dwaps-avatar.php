@@ -3,7 +3,7 @@
 Plugin Name: Dwaps Avatar
 Plugin URI: https://github.com/dwaps/dwaps-avatar
 Description: Gestion d'un avatar de présentation.
-Version: 0.1.0
+Version: 0.1.1
 Author: DWAPS Formation - Michael Cornillon
 Author URI: http://dwaps.fr
 Licence: MIT
@@ -92,10 +92,13 @@ class DWAPS_Avatar
 		$this->_years = [];
 		$this->_months = ["01","02","03","04","05","06","07","08","09","10","11","12"];
 
-		for($i=10; $i >= 0; $i--)
+		for($i=0; $i > 10; $i++)
 		{
 			array_push( $this->_years, $year-$i );
 		}
+
+		print_r($this->_years);
+		die;
 	}
 
 	public function getImgFolder( $filename, $default )
