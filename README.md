@@ -1,3 +1,7 @@
+![](https://www.dwaps.fr/img/logo-300.png)
+
+## <span style="color:red">DEPRECATED</span>
+
 # DWAPS AVATAR
 L'entreprise **DWAPS Formation** a été créée le 1er Octobre 2015.
 
